@@ -30,4 +30,3 @@ Para quem perdeu o olfato depois de uma infecção, o **treinamento olfativo** (
 Profissional ou não, se a perda de olfato durar mais de algumas semanas, procure um otorrino ou o seu médico. Ele poderá examinar o nariz e indicar [testes de olfato](/o-que-e-olfatometria/).
 
 Este texto é informativo e não substitui a avaliação de um profissional de saúde.
-

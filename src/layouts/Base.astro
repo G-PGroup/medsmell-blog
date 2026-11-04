@@ -12,6 +12,8 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/favicon.png" />
     <link rel="alternate" type="application/rss+xml" title="Blog MedSmell" href="/rss.xml" />
     <link rel="sitemap" href="/sitemap-index.xml" />
     <meta property="og:type" content={jsonLd ? 'article' : 'website'} />
@@ -20,12 +22,13 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <meta property="og:url" content={canonical} />
     <meta property="og:site_name" content="Blog MedSmell" />
     <meta property="og:locale" content="pt_BR" />
+    <meta property="og:image" content={new URL('/favicon.png', Astro.site)} />
     {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
   </head>
   <body>
     <header class="site">
       <div class="wrap">
-        <a class="marca" href="/">MedSmell <span>blog</span></a>
+        <a class="marca" href="/" aria-label="Blog MedSmell, página inicial"><img src="/logo-medsmell.svg" alt="MedSmell" width="117" height="44" /><span>blog</span></a>
         <nav class="site">
           <a href="/">Artigos</a>
           <a class="loja" href="https://www.medsmell.com.br/?utm_source=blog&utm_medium=menu">Loja MedSmell</a>

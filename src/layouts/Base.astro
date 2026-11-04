@@ -1,0 +1,45 @@
+---
+import '../styles/global.css';
+interface Props { title: string; description: string; jsonLd?: object; }
+const { title, description, jsonLd } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" type="application/rss+xml" title="Blog MedSmell" href="/rss.xml" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta property="og:type" content={jsonLd ? 'article' : 'website'} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content="Blog MedSmell" />
+    <meta property="og:locale" content="pt_BR" />
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+  </head>
+  <body>
+    <header class="site">
+      <div class="wrap">
+        <a class="marca" href="/">MedSmell <span>blog</span></a>
+        <nav class="site">
+          <a href="/">Artigos</a>
+          <a class="loja" href="https://www.medsmell.com.br/?utm_source=blog&utm_medium=menu">Loja MedSmell</a>
+        </nav>
+      </div>
+    </header>
+    <main><div class="wrap"><slot /></div></main>
+    <footer class="site">
+      <div class="wrap">
+        Conteúdo informativo. Nossos produtos não substituem a consulta. Procure um otorrino ou o seu médico.<br />
+        © {new Date().getFullYear()} MedSmell · <a href="https://www.medsmell.com.br/">medsmell.com.br</a> ·
+        <a href="https://www.medsmell.com.br/pagina/politica-de-privacidade.html">Política de privacidade</a> ·
+        <a href="/rss.xml">RSS</a>
+      </div>
+    </footer>
+  </body>
+</html>

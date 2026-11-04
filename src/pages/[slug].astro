@@ -1,0 +1,39 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+export async function getStaticPaths() {
+  const posts = await getCollection('posts', ({ data }) => !data.draft);
+  return posts.map((post) => ({ params: { slug: post.id }, props: { post } }));
+}
+const { post } = Astro.props;
+const { Content } = await render(post);
+const d = post.data;
+const fmt = (x: Date) => x.toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric', timeZone: 'UTC' });
+const url = new URL(`/${post.id}/`, Astro.site).toString();
+const jsonLd = {
+  '@context': 'https://schema.org', '@type': 'BlogPosting',
+  headline: d.title, description: d.description, mainEntityOfPage: url, inLanguage: 'pt-BR',
+  datePublished: d.pubDate.toISOString(), dateModified: (d.updatedDate ?? d.pubDate).toISOString(),
+  author: { '@type': 'Organization', name: d.author },
+  publisher: { '@type': 'Organization', name: 'MedSmell', url: 'https://www.medsmell.com.br' },
+  ...(d.reviewer ? { reviewedBy: { '@type': 'Person', name: d.reviewer } } : {}),
+};
+---
+<Base title={`${d.title} | Blog MedSmell`} description={d.description} jsonLd={jsonLd}>
+  <article>
+    <h1>{d.title}</h1>
+    <div class="meta">
+      Publicado em {fmt(d.pubDate)}{d.updatedDate && <> · atualizado em {fmt(d.updatedDate)}</>} · {d.author}
+      {d.reviewer && <> · revisado por {d.reviewer}</>}
+    </div>
+    <Content />
+    {d.sources.length > 0 && (
+      <section class="fontes">
+        <h2>Fontes</h2>
+        <ol>{d.sources.map((s) => <li>{s}</li>)}</ol>
+      </section>
+    )}
+    <div class="aviso"><strong>Importante:</strong> conteúdo informativo. Não substitui a avaliação de um profissional de saúde. Se você perdeu ou alterou o olfato, procure um otorrino ou o seu médico.</div>
+    <div class="cta">Conheça os <a href={`https://www.medsmell.com.br/treinamento-olfativo?utm_source=blog&utm_medium=post&utm_campaign=${post.id}`}>kits de treinamento olfativo MedSmell</a>.</div>
+  </article>
+</Base>

@@ -28,6 +28,9 @@ h1 { font-size: 2rem; margin: 0 0 8px; }
 .lista h2 { font-size: 1.25rem; margin: 0 0 4px; }
 .lista h2 a { text-decoration: none; }
 .lista p { margin: 4px 0 0; }
+img.capa { display: block; width: 100%; height: auto; aspect-ratio: 1200 / 630; object-fit: cover; border-radius: 8px; }
+.lista img.capa { margin-bottom: 12px; }
+article img.capa { margin: 0 0 24px; }
 .aviso { background: #fff; border: 1px solid var(--rosa); border-left: 4px solid var(--rosa); border-radius: 10px; padding: 14px 16px; margin: 32px 0; font-size: .92rem; }
 .cta { background: var(--agua); border-radius: 12px; padding: 18px; margin: 32px 0; }
 .cta a { font-weight: 600; }

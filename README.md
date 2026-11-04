@@ -23,11 +23,20 @@ reviewer: "Dra. Gabriela"                                # quem revisou o conte�
 sources:
   - "Hummel T et al. Laryngoscope. 2009;119(3):496-499."
 tags: [anosmia, olfato]
+image: "/img/posts/anosmia.webp"                         # opcional: capa
+imageAlt: "Frascos de aromas usados no treinamento olfativo"  # obrigatório quando há capa
 ---
 Texto em Markdown. Sem promessa de cura ou prazo. Indique "procure um otorrino ou o seu médico".
 ```
 
 O slug é o nome do arquivo. Para manter os links antigos do Wix, use o mesmo slug do post antigo: `/post/<slug>` redireciona para `/<slug>/`.
+
+## Imagem de capa (opcional)
+- Arquivo em `public/img/posts/<slug>.webp`, **1200 × 630 px**, WebP, até 200 KB. Nome sem acento e sem espaço.
+- `imageAlt` descreve a imagem em uma frase (acessibilidade e Google).
+- A capa aparece no topo do post, na lista da página inicial e na prévia ao compartilhar (WhatsApp, Facebook).
+- Tema de saúde: sem "antes e depois" nem imagem que sugira cura. A capa passa pela dupla checagem de artes e pelo Revisor junto com o texto.
+- Sem capa, o post usa o ícone da MedSmell na prévia.
 
 ## Identidade
 Cores `#617572`, `#aed4d2`, `#f3ceca` e `#d2b9a7`. Títulos em Ananda e textos em Avenir; sem as fontes, o navegador usa as do sistema.

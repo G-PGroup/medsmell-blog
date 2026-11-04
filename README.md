@@ -3,9 +3,11 @@
 Site estático em Astro. Cada post é um arquivo Markdown em `src/content/posts/<slug>.md`.
 
 ## Como publicar um post
-1. O agente de SEO e Conteúdo cria uma branch e o arquivo do post (modelo abaixo).
-2. Abre uma PR. O check `build` precisa passar.
-3. O **Revisor de Conformidade** dá o parecer na PR (tema de saúde).
+Este repositório é público: só entra aqui texto já revisado.
+
+1. O agente de SEO e Conteúdo escreve o rascunho **no card do Paperclip**, não aqui.
+2. O **Revisor de Conformidade** dá o parecer no card (tema de saúde). Ajustes são feitos no card.
+3. Com o parecer "Conforme", o agente abre a PR com a **versão final** (modelo abaixo) e cita o card. O check `build` precisa passar.
 4. O **Carlos** aprova e faz o merge. Em até 10 minutos o post está no ar.
 
 Nada é publicado sem o merge do Carlos. Para tirar um post do ar: `draft: true` ou reverter a PR.
@@ -29,10 +31,3 @@ O slug é o nome do arquivo. Para manter os links antigos do Wix, use o mesmo sl
 
 ## Identidade
 Cores `#617572`, `#aed4d2`, `#f3ceca` e `#d2b9a7`. Títulos em Ananda e textos em Avenir; sem as fontes, o navegador usa as do sistema.
-
-## Infra (VPS)
-- `deploy/compose.yml`: projeto Compose `medsmell-blog`, nginx atrás do Traefik existente (rede `portainer_default`, entrypoint `websecure`, certificado `leresolver`).
-- `deploy/atualizar.sh`: cron do usuário `op-claude` na VPS (pasta `~/medsmell-blog`) a cada 10 min; puxa a `main` com uma deploy key só de leitura e reconstrói só quando ela muda.
-- DNS no registro.br: `blog` e `www.blog` (CNAME) → `srv754471.hstgr.cloud`; `www.blog` redireciona para `blog`.
-
-Desenvolvimento local: `npm ci && npx astro dev`.

@@ -10,6 +10,8 @@ sources:
   - "Whitcroft KL et al. Position paper on olfactory dysfunction: 2023. Rhinology 2023;61(Suppl 33):1-108. https://doi.org/10.4193/rhin22.483"
   - "Kattar N et al. Olfactory training for postviral olfactory dysfunction: systematic review and meta-analysis. Otolaryngol Head Neck Surg 2021;164(2):244-254. https://doi.org/10.1177/0194599820943550"
 tags: [hiposmia, olfato, perda de olfato]
+image: "/img/posts/hiposmia.webp"
+imageAlt: "Pessoa em sofá acolhedor aproximando com tranquilidade uma caneca de chá de ervas aromáticas do nariz."
 ---
 
 **Hiposmia** é a redução da capacidade de sentir cheiros. Na [anosmia](/anosmia/), o olfato é perdido por completo; na hiposmia, ele continua presente, mas mais fraco. É comum a pessoa perceber que a comida está "sem gosto", que não sente mais o perfume de uma flor ou que demora a notar um cheiro de queimado.

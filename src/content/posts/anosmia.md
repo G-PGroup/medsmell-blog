@@ -10,6 +10,8 @@ sources:
   - "Hummel T et al. Effects of olfactory training in patients with olfactory loss. Laryngoscope 2009;119(3):496-499. https://doi.org/10.1002/lary.20101"
   - "Kattar N et al. Olfactory training for postviral olfactory dysfunction: systematic review and meta-analysis. Otolaryngol Head Neck Surg 2021;164(2):244-254. https://doi.org/10.1177/0194599820943550"
 tags: [anosmia, olfato, perda de olfato]
+image: "/img/posts/anosmia.webp"
+imageAlt: "Homem sentado à mesa de café da manhã aproximando xícara de café para cheirar com atenção e calma."
 ---
 
 **Anosmia** é a perda total do olfato. Quando o cheiro está apenas reduzido, o nome é [hiposmia](/hiposmia/). Nos dois casos, a pessoa pode sentir que os alimentos perderam o sabor, porque boa parte do que chamamos de "gosto" vem do olfato.

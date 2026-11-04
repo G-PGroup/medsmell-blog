@@ -11,6 +11,8 @@ sources:
   - "Gary JB et al. Qualitative olfactory dysfunction and COVID-19: an evidence-based review with recommendations for the clinician. Am J Rhinol Allergy 2023;37(1):95-101. https://doi.org/10.1177/19458924221120117"
   - "Kattar N et al. Olfactory training for postviral olfactory dysfunction: systematic review and meta-analysis. Otolaryngol Head Neck Surg 2021;164(2):244-254. https://doi.org/10.1177/0194599820943550"
 tags: [covid-19, anosmia, paladar, olfato]
+image: "/img/posts/perda-de-olfato-e-paladar-covid-19.webp"
+imageAlt: "Pessoa à mesa de refeição aproximando uma fatia de fruta cítrica para cheirar com foco consciente."
 ---
 
 A perda de olfato ([anosmia](/anosmia/) ou [hiposmia](/hiposmia/)) e a alteração do paladar ficaram entre os sintomas mais característicos da Covid-19. Muitas pessoas notaram que o café, o perfume ou a comida deixaram de ter cheiro, às vezes sem nariz entupido.

@@ -16,16 +16,18 @@ const jsonLd = {
   datePublished: d.pubDate.toISOString(), dateModified: (d.updatedDate ?? d.pubDate).toISOString(),
   author: { '@type': 'Organization', name: d.author },
   publisher: { '@type': 'Organization', name: 'MedSmell', url: 'https://www.medsmell.com.br' },
+  ...(d.image ? { image: new URL(d.image, Astro.site).toString() } : {}),
   ...(d.reviewer ? { reviewedBy: { '@type': 'Person', name: d.reviewer } } : {}),
 };
 ---
-<Base title={`${d.title} | Blog MedSmell`} description={d.description} jsonLd={jsonLd}>
+<Base title={`${d.title} | Blog MedSmell`} description={d.description} jsonLd={jsonLd} image={d.image} imageAlt={d.imageAlt}>
   <article>
     <h1>{d.title}</h1>
     <div class="meta">
       Publicado em {fmt(d.pubDate)}{d.updatedDate && <> · atualizado em {fmt(d.updatedDate)}</>} · {d.author}
       {d.reviewer && <> · revisado por {d.reviewer}</>}
     </div>
+    {d.image && <img class="capa" src={d.image} alt={d.imageAlt} width="1200" height="630" fetchpriority="high" />}
     <Content />
     {d.sources.length > 0 && (
       <section class="fontes">

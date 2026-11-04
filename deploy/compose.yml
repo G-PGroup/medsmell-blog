@@ -9,9 +9,13 @@ services:
     labels:
       - traefik.enable=true
       - traefik.docker.network=portainer_default
-      - traefik.http.routers.medsmell-blog.rule=Host(`blog.medsmell.com.br`)
+      - traefik.http.routers.medsmell-blog.rule=Host(`blog.medsmell.com.br`) || Host(`www.blog.medsmell.com.br`)
       - traefik.http.routers.medsmell-blog.entrypoints=websecure
       - traefik.http.routers.medsmell-blog.tls.certresolver=leresolver
+      - traefik.http.routers.medsmell-blog.middlewares=medsmell-blog-www
+      - traefik.http.middlewares.medsmell-blog-www.redirectregex.regex=^https://www\.blog\.medsmell\.com\.br/(.*)
+      - traefik.http.middlewares.medsmell-blog-www.redirectregex.replacement=https://blog.medsmell.com.br/$${1}
+      - traefik.http.middlewares.medsmell-blog-www.redirectregex.permanent=true
       - traefik.http.services.medsmell-blog.loadbalancer.server.port=80
     mem_limit: 64m
 networks:

@@ -9,8 +9,6 @@ sources:
   - "De Luca R et al. Post-traumatic olfactory dysfunction: a scoping review of assessment and rehabilitation approaches. Front Neurol 2023;14:1193406. https://doi.org/10.3389/fneur.2023.1193406"
   - "Whitcroft KL et al. Position paper on olfactory dysfunction: 2023. Rhinology 2023;61(Suppl 33):1-108. https://doi.org/10.4193/rhin22.483"
 tags: [trauma, anosmia, olfato]
-image: "/img/posts/lesao-cerebral-e-a-perda-de-olfato.webp"
-imageAlt: "Adulto em ambiente doméstico sereno realizando exercício olfatório com pequeno frasco âmbar com conta-gotas."
 ---
 
 Uma pancada na cabeça, uma queda ou um acidente de trânsito podem afetar o olfato, mesmo quando a pessoa se recupera bem de outros sintomas. A perda de olfato depois de trauma é chamada de pós-traumática e pode ser parcial ([hiposmia](/hiposmia/)) ou total ([anosmia](/anosmia/)).

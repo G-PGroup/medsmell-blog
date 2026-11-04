@@ -9,8 +9,6 @@ sources:
   - "Filiz G et al. Olfactory bulb volume and cortical thickness evolve during sommelier training. Hum Brain Mapp 2022;43(9):2621-2633. https://doi.org/10.1002/hbm.25809"
   - "Kattar N et al. Olfactory training for postviral olfactory dysfunction: systematic review and meta-analysis. Otolaryngol Head Neck Surg 2021;164(2):244-254. https://doi.org/10.1177/0194599820943550"
 tags: [sommelier, covid-19, olfato, treinamento olfativo]
-image: "/img/posts/sommelier.webp"
-imageAlt: "Sommelier em adega com taça de cristal avaliando aromas de vinho em degustação técnica."
 ---
 
 Para quem trabalha com vinho, perfumaria ou alimentos, o olfato é uma ferramenta de trabalho. Por isso, a perda de olfato durante a Covid-19 (veja [perda de olfato e paladar na Covid-19](/perda-de-olfato-e-paladar-covid-19/)) preocupou especialmente os sommeliers.

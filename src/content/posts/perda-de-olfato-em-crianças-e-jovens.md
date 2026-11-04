@@ -9,8 +9,6 @@ sources:
   - "Kishimoto Y et al. Changes in the epidemiology of pediatric olfactory dysfunction before and after COVID-19 pandemic. Laryngoscope Investig Otolaryngol 2026;11:e70415. https://doi.org/10.1002/lio2.70415"
   - "Bakker K, Catroppa C, Anderson V. Olfactory dysfunction in pediatric traumatic brain injury: a systematic review. J Neurotrauma 2014;31(4):308-314. https://doi.org/10.1089/neu.2013.3045"
 tags: [crianças, perda de olfato, olfato]
-image: "/img/posts/perda-de-olfato-em-criancas-e-jovens.webp"
-imageAlt: "Mãe e filha adolescente sorrindo juntas enquanto sentem o aroma de folhas frescas de manjericão."
 ---
 
 Perder o olfato não é exclusividade dos adultos. Crianças e jovens também podem ter [hiposmia](/hiposmia/) ou [anosmia](/anosmia/), e muitas vezes o problema passa despercebido, porque a criança não sabe explicar que "não sente cheiro".

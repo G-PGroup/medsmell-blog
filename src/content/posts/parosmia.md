@@ -9,8 +9,6 @@ sources:
   - "Whitcroft KL et al. Position paper on olfactory dysfunction: 2023. Rhinology 2023;61(Suppl 33):1-108. https://doi.org/10.4193/rhin22.483"
   - "Kattar N et al. Olfactory training for postviral olfactory dysfunction: systematic review and meta-analysis. Otolaryngol Head Neck Surg 2021;164(2):244-254. https://doi.org/10.1177/0194599820943550"
 tags: [parosmia, olfato, covid-19]
-image: "/img/posts/parosmia.webp"
-imageAlt: "Mulher em cozinha moderna segurando metade de um limão fresco cortado e avaliando seu aroma com atenção."
 ---
 
 **Parosmia** é a mudança na qualidade do cheiro: um odor que antes era agradável passa a ser sentido como diferente, muitas vezes desagradável. Relatos comuns são café, cebola, alho, carne e perfumes com cheiro de queimado, químico ou podre.

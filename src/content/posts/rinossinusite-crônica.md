@@ -9,8 +9,6 @@ sources:
   - "Hummel T et al. Position paper on olfactory dysfunction. Rhinology Suppl 2017;54(26):1-30. https://doi.org/10.4193/rhino16.248"
   - "Whitcroft KL et al. Position paper on olfactory dysfunction: 2023. Rhinology 2023;61(Suppl 33):1-108. https://doi.org/10.4193/rhin22.483"
 tags: [rinossinusite, olfato, nariz]
-image: "/img/posts/rinossinusite-cronica.webp"
-imageAlt: "Pessoa ao ar livre em bosque arborizado respirando profundamente com a mão no peito em contato com a natureza."
 ---
 
 **Rinossinusite crônica** é a inflamação do nariz e dos seios da face que dura 12 semanas ou mais. Segundo o consenso europeu sobre rinossinusite e pólipos nasais (EPOS 2020), o diagnóstico combina pelo menos dois sintomas, sendo um deles nariz entupido ou secreção nasal. Os outros dois são dor ou pressão no rosto e **redução ou perda do olfato**.

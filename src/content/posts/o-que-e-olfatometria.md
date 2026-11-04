@@ -10,8 +10,6 @@ sources:
   - "Fornazieri MA. Validação do teste de identificação do olfato da Universidade da Pensilvânia (UPSIT) para brasileiros. Tese, USP, 2014. https://teses.usp.br/teses/disponiveis/5/5143/tde-10032014-090524/pt-br.html"
   - "Brandão PRP et al. Sniffin' Sticks smell identification test: measurement properties in an adult Brazilian healthcare professionals sample. PeerJ 2025;13:e19733. https://doi.org/10.7717/peerj.19733"
 tags: [olfatometria, teste de olfato, olfato]
-image: "/img/posts/o-que-e-olfatometria.webp"
-imageAlt: "Profissional de saúde em consultório apresentando frasco de vidro âmbar aberto para teste olfatório a paciente adulto."
 ---
 
 **Olfatometria** é a avaliação do olfato com odores de intensidade e qualidade controladas. Em vez de perguntar "você sente cheiro?", o exame mede o quanto e o quê a pessoa consegue perceber. O consenso internacional sobre disfunção olfatória recomenda esse tipo de teste, porque o relato do paciente sozinho nem sempre reflete a realidade.

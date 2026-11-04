@@ -12,8 +12,6 @@ sources:
   - "Alsaqer RA et al. Self-reported parosmia, phantosmia, and gustatory dysfunction among adults with mild-to-moderate COVID-19: a cross-sectional study. Clin Pract 2025;15(9):167. https://doi.org/10.3390/clinpract15090167"
   - "Gary JB et al. Qualitative olfactory dysfunction and COVID-19: an evidence-based review with recommendations for the clinician. Am J Rhinol Allergy 2023;37(1):95-101. https://doi.org/10.1177/19458924221120117"
 tags: [fantosmia, olfato]
-image: "/img/posts/fantosmia.webp"
-imageAlt: "Mulher em sala iluminada junto a uma cortina translúcida olhando pensativa para o alto com atenção aos aromas."
 ---
 
 **Fantosmia** é a percepção de um cheiro que não está presente no ambiente, como sentir fumaça, queimado ou algo químico sem que exista a fonte. Também é chamada de alucinação olfativa ou "cheiro fantasma". Pode ser passageira ou durar semanas e meses, e em geral é descrita como incômoda.

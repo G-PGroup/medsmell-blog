@@ -1,0 +1,42 @@
+{
+  "anosmia": {
+    "arquivo": "anosmia.webp",
+    "alt": "Homem sentado à mesa de café da manhã aproximando xícara de café para cheirar com atenção e calma."
+  },
+  "fantosmia": {
+    "arquivo": "fantosmia.webp",
+    "alt": "Mulher em sala iluminada junto a uma cortina translúcida olhando pensativa para o alto com atenção aos aromas."
+  },
+  "hiposmia": {
+    "arquivo": "hiposmia.webp",
+    "alt": "Pessoa em sofá acolhedor aproximando com tranquilidade uma caneca de chá de ervas aromáticas do nariz."
+  },
+  "lesão-cerebral-e-a-perda-de-olfato": {
+    "arquivo": "lesao-cerebral-e-a-perda-de-olfato.webp",
+    "alt": "Adulto em ambiente doméstico sereno realizando exercício olfatório com pequeno frasco âmbar com conta-gotas."
+  },
+  "o-que-e-olfatometria": {
+    "arquivo": "o-que-e-olfatometria.webp",
+    "alt": "Profissional de saúde em consultório apresentando frasco de vidro âmbar aberto para teste olfatório a paciente adulto."
+  },
+  "parosmia": {
+    "arquivo": "parosmia.webp",
+    "alt": "Mulher em cozinha moderna segurando metade de um limão fresco cortado e avaliando seu aroma com atenção."
+  },
+  "perda-de-olfato-e-paladar-covid-19": {
+    "arquivo": "perda-de-olfato-e-paladar-covid-19.webp",
+    "alt": "Pessoa à mesa de refeição aproximando uma fatia de fruta cítrica para cheirar com foco consciente."
+  },
+  "perda-de-olfato-em-crianças-e-jovens": {
+    "arquivo": "perda-de-olfato-em-criancas-e-jovens.webp",
+    "alt": "Mãe e filha adolescente sorrindo juntas enquanto sentem o aroma de folhas frescas de manjericão."
+  },
+  "rinossinusite-crônica": {
+    "arquivo": "rinossinusite-cronica.webp",
+    "alt": "Pessoa ao ar livre em bosque arborizado respirando profundamente com a mão no peito em contato com a natureza."
+  },
+  "sommelier": {
+    "arquivo": "sommelier.webp",
+    "alt": "Sommelier em adega com taça de cristal avaliando aromas de vinho em degustação técnica."
+  }
+}

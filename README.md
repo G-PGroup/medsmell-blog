@@ -37,6 +37,7 @@ O slug é o nome do arquivo. Para manter os links antigos do Wix, use o mesmo sl
 - A capa aparece no topo do post, na lista da página inicial e na prévia ao compartilhar (WhatsApp, Facebook).
 - Tema de saúde: sem "antes e depois" nem imagem que sugira cura. A capa passa pela dupla checagem de artes e pelo Revisor junto com o texto.
 - Sem capa, o post usa o ícone da MedSmell na prévia.
+- **Publicação automática:** o agente pede aprovação no WhatsApp com o campo `blog` (post, anexo e texto alternativo de cada capa). Quando o Carlos ou a Dra. Gabriela tocam em **Aprovar**, o n8n (fluxo "GPG Blog - publicar capas aprovadas") confere cada imagem (WebP 1200 × 630, até 200 KB) e grava imagens e capas num único commit na `main`. A publicação no ar acontece em até 10 minutos. **Ajustar** ou **Recusar** cancela o pedido. Para tirar uma capa, reverta o commit.
 
 ## Identidade
 Cores `#617572`, `#aed4d2`, `#f3ceca` e `#d2b9a7`. Títulos em Ananda e textos em Avenir; sem as fontes, o navegador usa as do sistema.

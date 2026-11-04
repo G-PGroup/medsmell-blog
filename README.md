@@ -32,7 +32,7 @@ Cores `#617572`, `#aed4d2`, `#f3ceca` e `#d2b9a7`. Títulos em Ananda e textos e
 
 ## Infra (VPS)
 - `deploy/compose.yml`: projeto Compose `medsmell-blog`, nginx atrás do Traefik existente (rede `portainer_default`, entrypoint `websecure`, certificado `leresolver`).
-- `deploy/atualizar.sh`: cron na VPS a cada 10 min; puxa a `main` e reconstrói só quando ela muda.
+- `deploy/atualizar.sh`: cron do usuário `op-claude` na VPS (pasta `~/medsmell-blog`) a cada 10 min; puxa a `main` com uma deploy key só de leitura e reconstrói só quando ela muda.
 - DNS no registro.br: `blog` e `www.blog` (CNAME) → `srv754471.hstgr.cloud`; `www.blog` redireciona para `blog`.
 
 Desenvolvimento local: `npm ci && npx astro dev`.
